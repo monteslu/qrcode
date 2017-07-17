@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="QR Code Generator">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QR code generator</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-light_blue.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-light_blue.min.css" /> -->
+  </head>
+
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base" style="margin: 10px;">
+    <!-- <img src="set1.png" style="display: none;" id="roboImg"> -->
+
+    <div class="mdl-layout__tab-bar-container">
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark mdl-js-ripple-effect--ignore-events">
+        <span class="mdl-layout__tab is-active" style="color: white; text-transform: none;">QR code generator.</span>
+      </div>
+    </div>
+
+
+
+    <div class="mdl-card mdl-shadow--2dp roundbox" style="padding: 8px; margin: auto; margin-top: 10px;">
+
+      <div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="text" id="textInput">
+        </div>
+      <div>
+        <button class="mybutton mdl-button mdl-button--raised mdl-button--colored" id="genBtn">
+          Generate
+        </button>
+    </div>
+
+    <br><br>
+    <div id="outputDiv"></div>
+
+    <br><br>
+    <!-- <div>
+      <br>
+      <a href="https://github.com/monteslu/robojs" target="_blank">Source on github</a>
+    </div> -->
+
+    <script src="main.bundle.js"></script>
+  </body>
+</html>
