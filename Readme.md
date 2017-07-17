@@ -1,7 +1,7 @@
 QR Code Generator
 ========================
 
-
+![qrcode](qrcode.png)
 
 Simple app to generate QR codes using the qrious javascript library.  
 
@@ -25,4 +25,4 @@ npm run start
 ## View it
 
 Then view the app:
-[http://localhost:3010](http://localhost:3010)
+[http://localhost:3011](http://localhost:3011)
